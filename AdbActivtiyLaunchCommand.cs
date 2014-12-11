@@ -19,7 +19,7 @@
 
     public void Execute()
     {
-      ServerRunner.LogMessage("Executing adb command\n Command : {0}\n AdbExeFilePath : {1}", this.Activity, this.AdbExeFile);
+      ServerRunner.LogMessage("Executing adb command\n Activity : {0}\n AdbExeFilePath : {1}", this.Activity, this.AdbExeFile);
 
       var info = new ProcessStartInfo
       {
